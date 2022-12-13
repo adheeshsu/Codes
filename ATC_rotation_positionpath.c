@@ -25,7 +25,7 @@ int main()
     {
         if (demand_pos < actual_pos)
         {
-            printf("rotate anticlock\n");
+            printf("rotate anticlockwise\n");
             printf("the number of positions for the shortest path is %d",A);
         }
         else
