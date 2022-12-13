@@ -12,9 +12,9 @@ int main()
     {
         max_tools[i] = i;
     }
-    printf("print the actual position of tool: ");
+    printf("enter the actual position of tool: ");
     scanf("%d",&actual_pos);
-    printf("print the demanded position of tool: ");
+    printf("enter the demanded position of tool: ");
     scanf("%d",&demand_pos);
     
     A = abs(max_tools[actual_pos] - max_tools[demand_pos]);
